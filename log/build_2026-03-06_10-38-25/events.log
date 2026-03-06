@@ -1,0 +1,362 @@
+[0.000000] (-) TimerEvent: {}
+[0.002205] (drive_controls) JobQueued: {'identifier': 'drive_controls', 'dependencies': OrderedDict()}
+[0.002794] (rosmaster) JobQueued: {'identifier': 'rosmaster', 'dependencies': OrderedDict()}
+[0.003026] (rosmaster_driver) JobQueued: {'identifier': 'rosmaster_driver', 'dependencies': OrderedDict()}
+[0.003404] (rosmaster_driver_diff) JobQueued: {'identifier': 'rosmaster_driver_diff', 'dependencies': OrderedDict()}
+[0.003645] (drive_controls) JobStarted: {'identifier': 'drive_controls'}
+[0.047394] (rosmaster) JobStarted: {'identifier': 'rosmaster'}
+[0.074417] (rosmaster_driver) JobStarted: {'identifier': 'rosmaster_driver'}
+[0.098940] (-) TimerEvent: {}
+[0.104312] (rosmaster_driver_diff) JobStarted: {'identifier': 'rosmaster_driver_diff'}
+[0.199135] (-) TimerEvent: {}
+[0.300178] (-) TimerEvent: {}
+[0.401211] (-) TimerEvent: {}
+[0.502935] (-) TimerEvent: {}
+[0.603954] (-) TimerEvent: {}
+[0.704788] (-) TimerEvent: {}
+[0.806016] (-) TimerEvent: {}
+[0.907229] (-) TimerEvent: {}
+[1.009137] (-) TimerEvent: {}
+[1.110522] (-) TimerEvent: {}
+[1.211330] (-) TimerEvent: {}
+[1.312366] (-) TimerEvent: {}
+[1.413627] (-) TimerEvent: {}
+[1.514614] (-) TimerEvent: {}
+[1.616748] (-) TimerEvent: {}
+[1.717882] (-) TimerEvent: {}
+[1.813300] (rosmaster) JobProgress: {'identifier': 'rosmaster', 'progress': 'cmake'}
+[1.817182] (rosmaster) JobProgress: {'identifier': 'rosmaster', 'progress': 'build'}
+[1.818106] (-) TimerEvent: {}
+[1.822005] (rosmaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raspberrypi/rosmaster/build/rosmaster', '--', '-j4', '-l4'], 'cwd': '/home/raspberrypi/rosmaster/build/rosmaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raspberrypi'), ('SSH_CLIENT', '192.168.137.1 63504 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/raspberrypi'), ('TERM_PROGRAM_VERSION', '1.110.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c7ea77e3-c0f9-46e1-9da4-55439120967e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/raspberrypi/rosmaster/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raspberrypi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/raspberrypi/rosmaster/build/rosmaster'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 63504 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/raspberrypi/rosmaster/build/drive_controls:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble')]), 'shell': False}
+[1.841391] (rosmaster_driver) JobProgress: {'identifier': 'rosmaster_driver', 'progress': 'cmake'}
+[1.843031] (rosmaster_driver) JobProgress: {'identifier': 'rosmaster_driver', 'progress': 'build'}
+[1.844839] (rosmaster_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raspberrypi/rosmaster/build/rosmaster_driver', '--', '-j4', '-l4'], 'cwd': '/home/raspberrypi/rosmaster/build/rosmaster_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raspberrypi'), ('SSH_CLIENT', '192.168.137.1 63504 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/raspberrypi'), ('TERM_PROGRAM_VERSION', '1.110.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c7ea77e3-c0f9-46e1-9da4-55439120967e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/raspberrypi/rosmaster/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raspberrypi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/raspberrypi/rosmaster/build/rosmaster_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 63504 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/raspberrypi/rosmaster/build/drive_controls:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble')]), 'shell': False}
+[1.920360] (rosmaster_driver_diff) JobProgress: {'identifier': 'rosmaster_driver_diff', 'progress': 'cmake'}
+[1.920615] (-) TimerEvent: {}
+[1.932091] (rosmaster_driver_diff) JobProgress: {'identifier': 'rosmaster_driver_diff', 'progress': 'build'}
+[1.932768] (rosmaster_driver_diff) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff', '--', '-j4', '-l4'], 'cwd': '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raspberrypi'), ('SSH_CLIENT', '192.168.137.1 63504 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/raspberrypi'), ('TERM_PROGRAM_VERSION', '1.110.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c7ea77e3-c0f9-46e1-9da4-55439120967e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/raspberrypi/rosmaster/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raspberrypi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 63504 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/raspberrypi/rosmaster/build/drive_controls:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble')]), 'shell': False}
+[2.020847] (-) TimerEvent: {}
+[2.122569] (-) TimerEvent: {}
+[2.153362] (rosmaster_driver) CommandEnded: {'returncode': 0}
+[2.222734] (-) TimerEvent: {}
+[2.294917] (rosmaster_driver) JobEnded: {'identifier': 'rosmaster_driver', 'rc': 0}
+[2.300515] (rosmaster) CommandEnded: {'returncode': 0}
+[2.304411] (rosmaster_driver_diff) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_rosmaster\x1b[0m\n'}
+[2.308972] (rosmaster) JobProgress: {'identifier': 'rosmaster', 'progress': 'install'}
+[2.322956] (-) TimerEvent: {}
+[2.391019] (rosmaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raspberrypi/rosmaster/build/rosmaster'], 'cwd': '/home/raspberrypi/rosmaster/build/rosmaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raspberrypi'), ('SSH_CLIENT', '192.168.137.1 63504 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/raspberrypi'), ('TERM_PROGRAM_VERSION', '1.110.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c7ea77e3-c0f9-46e1-9da4-55439120967e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/raspberrypi/rosmaster/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raspberrypi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/raspberrypi/rosmaster/build/rosmaster'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 63504 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/raspberrypi/rosmaster/build/drive_controls:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble')]), 'shell': False}
+[2.423391] (-) TimerEvent: {}
+[2.459195] (rosmaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.462818] (rosmaster) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.467458] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/config/gazebo_params.yaml\n'}
+[2.469472] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/config/mecanum_controllers.yaml\n'}
+[2.471669] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/config/my_controllers.yaml\n'}
+[2.473726] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/config/twist_mux.yaml\n'}
+[2.477143] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/description/inertial_macros.xacro\n'}
+[2.480835] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/description/robot.urdf.xacro\n'}
+[2.481461] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/description/ros2_control.xacro\n'}
+[2.489131] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/description/rosmaster.urdf.xacro\n'}
+[2.489848] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/description/rosmaster_core.xacro\n'}
+[2.490451] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/launch/launch_robot.launch.py\n'}
+[2.490960] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/launch/launch_sim.launch.py\n'}
+[2.502413] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/launch/mecanum_control.launch.py\n'}
+[2.503093] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/launch/rsp.launch.py\n'}
+[2.503633] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/worlds/empty.world\n'}
+[2.504145] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/ament_index/resource_index/package_run_dependencies/rosmaster\n'}
+[2.504647] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/ament_index/resource_index/parent_prefix_path/rosmaster\n'}
+[2.519511] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/environment/ament_prefix_path.sh\n'}
+[2.520426] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/environment/ament_prefix_path.dsv\n'}
+[2.521090] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/environment/path.sh\n'}
+[2.521650] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/environment/path.dsv\n'}
+[2.522198] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/local_setup.bash\n'}
+[2.522770] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/local_setup.sh\n'}
+[2.523374] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/local_setup.zsh\n'}
+[2.544566] (-) TimerEvent: {}
+[2.563797] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/local_setup.dsv\n'}
+[2.564612] (rosmaster) StdoutLine: {'line': b'-- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.dsv\n'}
+[2.579754] (rosmaster_driver_diff) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_rosmaster.dir/src/diffbot_system.cpp.o\x1b[0m\n'}
+[2.580550] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/ament_index/resource_index/packages/rosmaster\n'}
+[2.581637] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/cmake/rosmasterConfig.cmake\n'}
+[2.593216] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/cmake/rosmasterConfig-version.cmake\n'}
+[2.595377] (rosmaster) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.xml\n'}
+[2.612094] (rosmaster) CommandEnded: {'returncode': 0}
+[2.645154] (-) TimerEvent: {}
+[2.753812] (-) TimerEvent: {}
+[2.847058] (rosmaster) JobEnded: {'identifier': 'rosmaster', 'rc': 0}
+[2.854064] (-) TimerEvent: {}
+[2.956948] (-) TimerEvent: {}
+[3.059682] (-) TimerEvent: {}
+[3.163304] (-) TimerEvent: {}
+[3.264898] (-) TimerEvent: {}
+[3.366458] (-) TimerEvent: {}
+[3.467262] (-) TimerEvent: {}
+[3.568110] (-) TimerEvent: {}
+[3.668804] (-) TimerEvent: {}
+[3.770076] (-) TimerEvent: {}
+[3.871275] (-) TimerEvent: {}
+[3.972618] (-) TimerEvent: {}
+[4.073434] (-) TimerEvent: {}
+[4.175573] (-) TimerEvent: {}
+[4.279601] (-) TimerEvent: {}
+[4.380346] (-) TimerEvent: {}
+[4.481242] (-) TimerEvent: {}
+[4.573687] (drive_controls) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/raspberrypi/rosmaster/build/drive_controls/build', '--no-deps', 'symlink_data'], 'cwd': '/home/raspberrypi/rosmaster/build/drive_controls', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'raspberrypi', 'SSH_CLIENT': '192.168.137.1 63504 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib', 'BROWSER': '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/raspberrypi', 'TERM_PROGRAM_VERSION': '1.110.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c7ea77e3-c0f9-46e1-9da4-55439120967e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/raspberrypi/rosmaster/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raspberrypi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/raspberrypi/rosmaster/build/drive_controls', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 63504 192.168.137.101 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raspberrypi/rosmaster/build/drive_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:/home/raspberrypi/rosmaster/build/drive_controls:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster'}, 'shell': False}
+[4.582130] (-) TimerEvent: {}
+[4.683644] (-) TimerEvent: {}
+[4.784584] (-) TimerEvent: {}
+[4.885940] (-) TimerEvent: {}
+[4.987626] (-) TimerEvent: {}
+[5.089004] (-) TimerEvent: {}
+[5.191065] (-) TimerEvent: {}
+[5.292183] (-) TimerEvent: {}
+[5.393809] (-) TimerEvent: {}
+[5.495602] (-) TimerEvent: {}
+[5.597854] (-) TimerEvent: {}
+[5.699741] (-) TimerEvent: {}
+[5.801763] (-) TimerEvent: {}
+[5.903719] (-) TimerEvent: {}
+[6.005358] (-) TimerEvent: {}
+[6.107480] (-) TimerEvent: {}
+[6.209461] (-) TimerEvent: {}
+[6.311618] (-) TimerEvent: {}
+[6.375617] (drive_controls) StdoutLine: {'line': b'running develop\n'}
+[6.411929] (-) TimerEvent: {}
+[6.514006] (-) TimerEvent: {}
+[6.615672] (-) TimerEvent: {}
+[6.717595] (-) TimerEvent: {}
+[6.819089] (-) TimerEvent: {}
+[6.921023] (-) TimerEvent: {}
+[7.022509] (-) TimerEvent: {}
+[7.127518] (-) TimerEvent: {}
+[7.228908] (-) TimerEvent: {}
+[7.329711] (-) TimerEvent: {}
+[7.430617] (-) TimerEvent: {}
+[7.531455] (-) TimerEvent: {}
+[7.633008] (-) TimerEvent: {}
+[7.696065] (drive_controls) StdoutLine: {'line': b'running egg_info\n'}
+[7.698054] (drive_controls) StdoutLine: {'line': b'writing drive_controls.egg-info/PKG-INFO\n'}
+[7.700501] (drive_controls) StdoutLine: {'line': b'writing dependency_links to drive_controls.egg-info/dependency_links.txt\n'}
+[7.702787] (drive_controls) StdoutLine: {'line': b'writing entry points to drive_controls.egg-info/entry_points.txt\n'}
+[7.703902] (drive_controls) StdoutLine: {'line': b'writing requirements to drive_controls.egg-info/requires.txt\n'}
+[7.704988] (drive_controls) StdoutLine: {'line': b'writing top-level names to drive_controls.egg-info/top_level.txt\n'}
+[7.716032] (drive_controls) StdoutLine: {'line': b"reading manifest file 'drive_controls.egg-info/SOURCES.txt'\n"}
+[7.721629] (drive_controls) StdoutLine: {'line': b"writing manifest file 'drive_controls.egg-info/SOURCES.txt'\n"}
+[7.731226] (drive_controls) StdoutLine: {'line': b'running build_ext\n'}
+[7.733658] (drive_controls) StdoutLine: {'line': b'Creating /home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages/drive-controls.egg-link (link to .)\n'}
+[7.734315] (-) TimerEvent: {}
+[7.738290] (drive_controls) StdoutLine: {'line': b'Installing drive script to /home/raspberrypi/rosmaster/install/drive_controls/lib/drive_controls\n'}
+[7.741987] (drive_controls) StdoutLine: {'line': b'Installing driveTest script to /home/raspberrypi/rosmaster/install/drive_controls/lib/drive_controls\n'}
+[7.742759] (drive_controls) StdoutLine: {'line': b'\n'}
+[7.743789] (drive_controls) StdoutLine: {'line': b'Installed /home/raspberrypi/rosmaster/build/drive_controls\n'}
+[7.745240] (drive_controls) StdoutLine: {'line': b'running symlink_data\n'}
+[7.834644] (-) TimerEvent: {}
+[7.935164] (drive_controls) CommandEnded: {'returncode': 0}
+[7.938535] (-) TimerEvent: {}
+[8.020424] (drive_controls) JobEnded: {'identifier': 'drive_controls', 'rc': 0}
+[8.038822] (-) TimerEvent: {}
+[8.140240] (-) TimerEvent: {}
+[8.241306] (-) TimerEvent: {}
+[8.342157] (-) TimerEvent: {}
+[8.443023] (-) TimerEvent: {}
+[8.543872] (-) TimerEvent: {}
+[8.644863] (-) TimerEvent: {}
+[8.745740] (-) TimerEvent: {}
+[8.846644] (-) TimerEvent: {}
+[8.947759] (-) TimerEvent: {}
+[9.048704] (-) TimerEvent: {}
+[9.149586] (-) TimerEvent: {}
+[9.250522] (-) TimerEvent: {}
+[9.351519] (-) TimerEvent: {}
+[9.452396] (-) TimerEvent: {}
+[9.553232] (-) TimerEvent: {}
+[9.654384] (-) TimerEvent: {}
+[9.755194] (-) TimerEvent: {}
+[9.856067] (-) TimerEvent: {}
+[9.957001] (-) TimerEvent: {}
+[10.057926] (-) TimerEvent: {}
+[10.159378] (-) TimerEvent: {}
+[10.260257] (-) TimerEvent: {}
+[10.361078] (-) TimerEvent: {}
+[10.461871] (-) TimerEvent: {}
+[10.562738] (-) TimerEvent: {}
+[10.663718] (-) TimerEvent: {}
+[10.764929] (-) TimerEvent: {}
+[10.866732] (-) TimerEvent: {}
+[10.967687] (-) TimerEvent: {}
+[11.068643] (-) TimerEvent: {}
+[11.169981] (-) TimerEvent: {}
+[11.270928] (-) TimerEvent: {}
+[11.372114] (-) TimerEvent: {}
+[11.473258] (-) TimerEvent: {}
+[11.574244] (-) TimerEvent: {}
+[11.675284] (-) TimerEvent: {}
+[11.776254] (-) TimerEvent: {}
+[11.877428] (-) TimerEvent: {}
+[11.978687] (-) TimerEvent: {}
+[12.080528] (-) TimerEvent: {}
+[12.181458] (-) TimerEvent: {}
+[12.282538] (-) TimerEvent: {}
+[12.384285] (-) TimerEvent: {}
+[12.485135] (-) TimerEvent: {}
+[12.585928] (-) TimerEvent: {}
+[12.686883] (-) TimerEvent: {}
+[12.787857] (-) TimerEvent: {}
+[12.888778] (-) TimerEvent: {}
+[12.990162] (-) TimerEvent: {}
+[13.091764] (-) TimerEvent: {}
+[13.192636] (-) TimerEvent: {}
+[13.293576] (-) TimerEvent: {}
+[13.394475] (-) TimerEvent: {}
+[13.495368] (-) TimerEvent: {}
+[13.596273] (-) TimerEvent: {}
+[13.697257] (-) TimerEvent: {}
+[13.798193] (-) TimerEvent: {}
+[13.899801] (-) TimerEvent: {}
+[14.001355] (-) TimerEvent: {}
+[14.102389] (-) TimerEvent: {}
+[14.203458] (-) TimerEvent: {}
+[14.304359] (-) TimerEvent: {}
+[14.405230] (-) TimerEvent: {}
+[14.506170] (-) TimerEvent: {}
+[14.607882] (-) TimerEvent: {}
+[14.708876] (-) TimerEvent: {}
+[14.810614] (-) TimerEvent: {}
+[14.912409] (-) TimerEvent: {}
+[15.013794] (-) TimerEvent: {}
+[15.122865] (-) TimerEvent: {}
+[15.224245] (-) TimerEvent: {}
+[15.325864] (-) TimerEvent: {}
+[15.427388] (-) TimerEvent: {}
+[15.528966] (-) TimerEvent: {}
+[15.630513] (-) TimerEvent: {}
+[15.731871] (-) TimerEvent: {}
+[15.734839] (rosmaster_driver_diff) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/include/rosmaster_driver_diff/rosmaster_controller.hpp:26\x1b[m\x1b[K,\n'}
+[15.735902] (rosmaster_driver_diff) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/include/rosmaster_driver_diff/diffbot_system.hpp:23\x1b[m\x1b[K,\n'}
+[15.736549] (rosmaster_driver_diff) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/src/diffbot_system.cpp:2\x1b[m\x1b[K:\n'}
+[15.737105] (rosmaster_driver_diff) StderrLine: {'line': b'\x1b[01m\x1b[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/include/rosmaster_driver_diff/rosmaster.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::array<int, 4> > rosmaster::parse_encoder_frame(const std::vector<unsigned char>&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.737655] (rosmaster_driver_diff) StderrLine: {'line': b'\x1b[01m\x1b[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/include/rosmaster_driver_diff/rosmaster.hpp:88:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kexpected_total\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.739549] (rosmaster_driver_diff) StderrLine: {'line': b'   88 |   std::size_t \x1b[01;35m\x1b[Kexpected_total\x1b[m\x1b[K = 3 + 1 + data_len; // indices: 0..expected_total inclusive?\n'}
+[15.741211] (rosmaster_driver_diff) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.832076] (-) TimerEvent: {}
+[15.932922] (-) TimerEvent: {}
+[16.033910] (-) TimerEvent: {}
+[16.134830] (-) TimerEvent: {}
+[16.235999] (-) TimerEvent: {}
+[16.336892] (-) TimerEvent: {}
+[16.437727] (-) TimerEvent: {}
+[16.538760] (-) TimerEvent: {}
+[16.640014] (-) TimerEvent: {}
+[16.740957] (-) TimerEvent: {}
+[16.841991] (-) TimerEvent: {}
+[16.942955] (-) TimerEvent: {}
+[17.043991] (-) TimerEvent: {}
+[17.144959] (-) TimerEvent: {}
+[17.245930] (-) TimerEvent: {}
+[17.346957] (-) TimerEvent: {}
+[17.448290] (-) TimerEvent: {}
+[17.549262] (-) TimerEvent: {}
+[17.650275] (-) TimerEvent: {}
+[17.751067] (-) TimerEvent: {}
+[17.851989] (-) TimerEvent: {}
+[17.952798] (-) TimerEvent: {}
+[18.053725] (-) TimerEvent: {}
+[18.154584] (-) TimerEvent: {}
+[18.255510] (-) TimerEvent: {}
+[18.356661] (-) TimerEvent: {}
+[18.457625] (-) TimerEvent: {}
+[18.558830] (-) TimerEvent: {}
+[18.659809] (-) TimerEvent: {}
+[18.760585] (-) TimerEvent: {}
+[18.861386] (-) TimerEvent: {}
+[18.962177] (-) TimerEvent: {}
+[19.063005] (-) TimerEvent: {}
+[19.164018] (-) TimerEvent: {}
+[19.265037] (-) TimerEvent: {}
+[19.366233] (-) TimerEvent: {}
+[19.467106] (-) TimerEvent: {}
+[19.567995] (-) TimerEvent: {}
+[19.668790] (-) TimerEvent: {}
+[19.769667] (-) TimerEvent: {}
+[19.870608] (-) TimerEvent: {}
+[19.971537] (-) TimerEvent: {}
+[20.072392] (-) TimerEvent: {}
+[20.173251] (-) TimerEvent: {}
+[20.274089] (-) TimerEvent: {}
+[20.374873] (-) TimerEvent: {}
+[20.475728] (-) TimerEvent: {}
+[20.576540] (-) TimerEvent: {}
+[20.677335] (-) TimerEvent: {}
+[20.778154] (-) TimerEvent: {}
+[20.878952] (-) TimerEvent: {}
+[20.979804] (-) TimerEvent: {}
+[21.081014] (-) TimerEvent: {}
+[21.181815] (-) TimerEvent: {}
+[21.282714] (-) TimerEvent: {}
+[21.383823] (-) TimerEvent: {}
+[21.484605] (-) TimerEvent: {}
+[21.585518] (-) TimerEvent: {}
+[21.686279] (-) TimerEvent: {}
+[21.787155] (-) TimerEvent: {}
+[21.888231] (-) TimerEvent: {}
+[21.939037] (rosmaster_driver_diff) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_rosmaster.so\x1b[0m\n'}
+[21.988431] (-) TimerEvent: {}
+[22.089247] (-) TimerEvent: {}
+[22.190601] (-) TimerEvent: {}
+[22.291973] (-) TimerEvent: {}
+[22.392970] (-) TimerEvent: {}
+[22.494231] (-) TimerEvent: {}
+[22.595246] (-) TimerEvent: {}
+[22.696179] (-) TimerEvent: {}
+[22.797181] (-) TimerEvent: {}
+[22.898177] (-) TimerEvent: {}
+[22.972775] (rosmaster_driver_diff) StdoutLine: {'line': b'[100%] Built target diffdrive_rosmaster\n'}
+[22.998677] (-) TimerEvent: {}
+[23.018126] (rosmaster_driver_diff) CommandEnded: {'returncode': 0}
+[23.020420] (rosmaster_driver_diff) JobProgress: {'identifier': 'rosmaster_driver_diff', 'progress': 'install'}
+[23.021356] (rosmaster_driver_diff) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff'], 'cwd': '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raspberrypi'), ('SSH_CLIENT', '192.168.137.1 63504 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('BROWSER', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/raspberrypi'), ('TERM_PROGRAM_VERSION', '1.110.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c7ea77e3-c0f9-46e1-9da4-55439120967e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/raspberrypi/rosmaster/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raspberrypi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/raspberrypi/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 63504 192.168.137.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/raspberrypi/rosmaster/build/drive_controls:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff:/home/raspberrypi/rosmaster/install/rosmaster:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble')]), 'shell': False}
+[23.056005] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.058883] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.061079] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff//robot_hardware.xml\n'}
+[23.062633] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/diffbot_system.hpp\n'}
+[23.064293] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/rosmaster.hpp\n'}
+[23.066067] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/rosmaster_controller.hpp\n'}
+[23.066778] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/visibility_control.h\n'}
+[23.067417] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/wheel.hpp\n'}
+[23.068244] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/robot_hardware.xml\n'}
+[23.069432] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/library_path.sh\n'}
+[23.070495] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/library_path.dsv\n'}
+[23.071815] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/ament_index/resource_index/package_run_dependencies/rosmaster_driver_diff\n'}
+[23.073158] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/ament_index/resource_index/parent_prefix_path/rosmaster_driver_diff\n'}
+[23.074302] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/ament_prefix_path.sh\n'}
+[23.075384] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/ament_prefix_path.dsv\n'}
+[23.076452] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/path.sh\n'}
+[23.077515] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/path.dsv\n'}
+[23.078496] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/local_setup.bash\n'}
+[23.079620] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/local_setup.sh\n'}
+[23.080645] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/local_setup.zsh\n'}
+[23.081645] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/local_setup.dsv\n'}
+[23.082422] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/package.dsv\n'}
+[23.098938] (-) TimerEvent: {}
+[23.119201] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/ament_index/resource_index/packages/rosmaster_driver_diff\n'}
+[23.120569] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rosmaster_driver_diff\n'}
+[23.121669] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.122755] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.124013] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/rosmaster_driver_diffConfig.cmake\n'}
+[23.125040] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/rosmaster_driver_diffConfig-version.cmake\n'}
+[23.126034] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/package.xml\n'}
+[23.127668] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Installing: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib/libdiffdrive_rosmaster.so\n'}
+[23.137338] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Set runtime path of "/home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib/libdiffdrive_rosmaster.so" to ""\n'}
+[23.138293] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/export_diffdrive_rosmasterExport.cmake\n'}
+[23.139039] (rosmaster_driver_diff) StdoutLine: {'line': b'-- Up-to-date: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/export_diffdrive_rosmasterExport-noconfig.cmake\n'}
+[23.144873] (rosmaster_driver_diff) CommandEnded: {'returncode': 0}
+[23.199167] (-) TimerEvent: {}
+[23.300130] (-) TimerEvent: {}
+[23.400945] (-) TimerEvent: {}
+[23.501793] (-) TimerEvent: {}
+[23.602797] (-) TimerEvent: {}
+[23.703929] (-) TimerEvent: {}
+[23.805271] (-) TimerEvent: {}
+[23.906355] (-) TimerEvent: {}
+[24.007348] (-) TimerEvent: {}
+[24.037186] (rosmaster_driver_diff) JobEnded: {'identifier': 'rosmaster_driver_diff', 'rc': 0}
+[24.041260] (-) EventReactorShutdown: {}

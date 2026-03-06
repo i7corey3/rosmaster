@@ -1,0 +1,9 @@
+<library path="diffdrive_rosmaster">
+  <class name="diffdrive_rosmaster/DiffDriveRosmasterHardware"
+         type="diffdrive_rosmaster::DiffDriveRosmasterHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The ros2_control DiffBot example using a system hardware interface-type.
+    </description>
+  </class>
+</library>

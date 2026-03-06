@@ -1,0 +1,2 @@
+[1.251s] Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver -- -j4 -l4
+[1.496s] Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raspberrypi/rosmaster/install/drive_controls:/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver -- -j4 -l4

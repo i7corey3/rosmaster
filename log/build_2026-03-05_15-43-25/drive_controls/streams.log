@@ -1,0 +1,29 @@
+[6.863s] Invoking command in '/home/raspberrypi/rosmaster/build/drive_controls': PYTHONPATH=/home/raspberrypi/rosmaster/build/drive_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberrypi/rosmaster/build/drive_controls/build --no-deps symlink_data
+[8.921s] running develop
+[10.229s] running egg_info
+[10.230s] creating drive_controls.egg-info
+[10.232s] writing drive_controls.egg-info/PKG-INFO
+[10.233s] writing dependency_links to drive_controls.egg-info/dependency_links.txt
+[10.235s] writing entry points to drive_controls.egg-info/entry_points.txt
+[10.236s] writing requirements to drive_controls.egg-info/requires.txt
+[10.237s] writing top-level names to drive_controls.egg-info/top_level.txt
+[10.237s] writing manifest file 'drive_controls.egg-info/SOURCES.txt'
+[10.246s] reading manifest file 'drive_controls.egg-info/SOURCES.txt'
+[10.250s] writing manifest file 'drive_controls.egg-info/SOURCES.txt'
+[10.260s] running build_ext
+[10.260s] Creating /home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages/drive-controls.egg-link (link to .)
+[10.266s] Installing drive script to /home/raspberrypi/rosmaster/install/drive_controls/lib/drive_controls
+[10.269s] Installing driveTest script to /home/raspberrypi/rosmaster/install/drive_controls/lib/drive_controls
+[10.270s] 
+[10.271s] Installed /home/raspberrypi/rosmaster/build/drive_controls
+[10.272s] running symlink_data
+[10.273s] creating /home/raspberrypi/rosmaster/install/drive_controls/share/ament_index
+[10.274s] creating /home/raspberrypi/rosmaster/install/drive_controls/share/ament_index/resource_index
+[10.277s] creating /home/raspberrypi/rosmaster/install/drive_controls/share/ament_index/resource_index/packages
+[10.280s] symbolically linking /home/raspberrypi/rosmaster/build/drive_controls/resource/drive_controls -> /home/raspberrypi/rosmaster/install/drive_controls/share/ament_index/resource_index/packages
+[10.281s] symbolically linking /home/raspberrypi/rosmaster/build/drive_controls/package.xml -> /home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls
+[10.282s] creating /home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/launch
+[10.284s] symbolically linking /home/raspberrypi/rosmaster/build/drive_controls/launch/drive_controls.launch.py -> /home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/launch
+[10.285s] creating /home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/config
+[10.286s] symbolically linking /home/raspberrypi/rosmaster/build/drive_controls/config/params.yaml -> /home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/config
+[10.482s] Invoked command in '/home/raspberrypi/rosmaster/build/drive_controls' returned '0': PYTHONPATH=/home/raspberrypi/rosmaster/build/drive_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberrypi/rosmaster/build/drive_controls/build --no-deps symlink_data

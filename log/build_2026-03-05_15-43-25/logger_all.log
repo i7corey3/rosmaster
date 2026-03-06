@@ -1,0 +1,314 @@
+[1.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff85228b20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8539e4d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8539e4d0>>, mixin_verb=('build',))
+[2.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.826s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raspberrypi/rosmaster'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.835s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extensions ['ignore', 'ignore_ament_install']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extension 'ignore'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extension 'ignore_ament_install'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extensions ['colcon_pkg']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extension 'colcon_pkg'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extensions ['colcon_meta']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extension 'colcon_meta'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extensions ['ros']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extension 'ros'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extensions ['cmake', 'python']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extension 'cmake'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extension 'python'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extensions ['python_setup_py']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(dep) by extension 'python_setup_py'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extensions ['ignore', 'ignore_ament_install']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extension 'ignore'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extension 'ignore_ament_install'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extensions ['colcon_pkg']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extension 'colcon_pkg'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extensions ['colcon_meta']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extension 'colcon_meta'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extensions ['ros']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extension 'ros'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extensions ['cmake', 'python']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extension 'cmake'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extension 'python'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extensions ['python_setup_py']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools) by extension 'python_setup_py'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extensions ['ignore', 'ignore_ament_install']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extension 'ignore'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extension 'ignore_ament_install'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extensions ['colcon_pkg']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extension 'colcon_pkg'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extensions ['colcon_meta']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extension 'colcon_meta'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extensions ['ros']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extension 'ros'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extensions ['cmake', 'python']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extension 'cmake'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extension 'python'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extensions ['python_setup_py']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/files) by extension 'python_setup_py'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extensions ['ignore', 'ignore_ament_install']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extension 'ignore'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extension 'ignore_ament_install'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extensions ['colcon_pkg']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extension 'colcon_pkg'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extensions ['colcon_meta']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extension 'colcon_meta'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extensions ['ros']
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extension 'ros'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extensions ['cmake', 'python']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extension 'cmake'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extension 'python'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extensions ['python_setup_py']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tools/install) by extension 'python_setup_py'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extensions ['ignore', 'ignore_ament_install']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extension 'ignore'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extension 'ignore_ament_install'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extensions ['colcon_pkg']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extension 'colcon_pkg'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extensions ['colcon_meta']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extension 'colcon_meta'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extensions ['ros']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_controls) by extension 'ros'
+[2.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive_controls' with type 'ros.ament_python' and name 'drive_controls'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extensions ['ignore', 'ignore_ament_install']
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extension 'ignore'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extension 'ignore_ament_install'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extensions ['colcon_pkg']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extension 'colcon_pkg'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extensions ['colcon_meta']
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extension 'colcon_meta'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extensions ['ros']
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster) by extension 'ros'
+[2.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosmaster' with type 'ros.ament_cmake' and name 'rosmaster'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extension 'ignore'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extension 'ignore_ament_install'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extensions ['colcon_pkg']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extension 'colcon_pkg'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extensions ['colcon_meta']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extension 'colcon_meta'
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extensions ['ros']
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver) by extension 'ros'
+[2.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosmaster_driver' with type 'ros.ament_cmake' and name 'rosmaster_driver'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extensions ['ignore', 'ignore_ament_install']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extension 'ignore'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extension 'ignore_ament_install'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extensions ['colcon_pkg']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extension 'colcon_pkg'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extensions ['colcon_meta']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extension 'colcon_meta'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extensions ['ros']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_driver_diff) by extension 'ros'
+[2.982s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosmaster_driver_diff' with type 'ros.ament_cmake' and name 'rosmaster_driver_diff'
+[2.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 304 installed packages in /opt/ros/humble
+[3.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'cmake_args' from command line to 'None'
+[3.423s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'cmake_target' from command line to 'None'
+[3.423s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.423s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'cmake_clean_cache' from command line to 'False'
+[3.423s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'cmake_clean_first' from command line to 'False'
+[3.423s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'cmake_force_configure' from command line to 'False'
+[3.423s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'ament_cmake_args' from command line to 'None'
+[3.424s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'catkin_cmake_args' from command line to 'None'
+[3.424s] Level 5:colcon.colcon_core.verb:set package 'drive_controls' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.424s] DEBUG:colcon.colcon_core.verb:Building package 'drive_controls' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberrypi/rosmaster/build/drive_controls', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberrypi/rosmaster/install/drive_controls', 'merge_install': False, 'path': '/home/raspberrypi/rosmaster/src/drive_controls', 'symlink_install': True, 'test_result_base': None}
+[3.426s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'cmake_args' from command line to 'None'
+[3.426s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'cmake_target' from command line to 'None'
+[3.426s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.426s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'cmake_clean_cache' from command line to 'False'
+[3.426s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'cmake_clean_first' from command line to 'False'
+[3.426s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'cmake_force_configure' from command line to 'False'
+[3.427s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'ament_cmake_args' from command line to 'None'
+[3.427s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'catkin_cmake_args' from command line to 'None'
+[3.427s] Level 5:colcon.colcon_core.verb:set package 'rosmaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.427s] DEBUG:colcon.colcon_core.verb:Building package 'rosmaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberrypi/rosmaster/build/rosmaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberrypi/rosmaster/install/rosmaster', 'merge_install': False, 'path': '/home/raspberrypi/rosmaster/src/rosmaster', 'symlink_install': True, 'test_result_base': None}
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'cmake_args' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'cmake_target' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.430s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.430s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.430s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.430s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.430s] DEBUG:colcon.colcon_core.verb:Building package 'rosmaster_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberrypi/rosmaster/build/rosmaster_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberrypi/rosmaster/install/rosmaster_driver', 'merge_install': False, 'path': '/home/raspberrypi/rosmaster/src/rosmaster_driver', 'symlink_install': True, 'test_result_base': None}
+[3.432s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'cmake_args' from command line to 'None'
+[3.432s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'cmake_target' from command line to 'None'
+[3.432s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.432s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'cmake_clean_cache' from command line to 'False'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'cmake_clean_first' from command line to 'False'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'cmake_force_configure' from command line to 'False'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'ament_cmake_args' from command line to 'None'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'catkin_cmake_args' from command line to 'None'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_driver_diff' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.433s] DEBUG:colcon.colcon_core.verb:Building package 'rosmaster_driver_diff' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberrypi/rosmaster/install/rosmaster_driver_diff', 'merge_install': False, 'path': '/home/raspberrypi/rosmaster/src/rosmaster_driver_diff', 'symlink_install': True, 'test_result_base': None}
+[3.434s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.439s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raspberrypi/rosmaster/src/drive_controls' with build type 'ament_python'
+[3.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_controls', 'ament_prefix_path')
+[3.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/hook/ament_prefix_path.ps1'
+[3.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/hook/ament_prefix_path.dsv'
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/hook/ament_prefix_path.sh'
+[3.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.533s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raspberrypi/rosmaster/src/rosmaster' with build type 'ament_cmake'
+[3.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raspberrypi/rosmaster/src/rosmaster'
+[3.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raspberrypi/rosmaster/src/rosmaster_driver' with build type 'ament_cmake'
+[3.556s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raspberrypi/rosmaster/src/rosmaster_driver'
+[3.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raspberrypi/rosmaster/src/rosmaster_driver_diff' with build type 'ament_cmake'
+[3.577s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raspberrypi/rosmaster/src/rosmaster_driver_diff'
+[3.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.626s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raspberrypi/rosmaster/src/drive_controls'
+[5.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster
+[5.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver
+[5.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver_diff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver_diff
+[9.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver
+[9.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver -- -j4 -l4
+[9.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver -- -j4 -l4
+[9.886s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'rosmaster_driver' because it has no 'install' target
+[9.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosmaster_driver)
+[9.970s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver' for CMake module files
+[9.976s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver' for CMake config files
+[9.979s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver/bin'
+[9.981s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver/lib/pkgconfig/rosmaster_driver.pc'
+[9.983s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver/lib/python3.10/site-packages'
+[9.986s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver/bin'
+[9.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.ps1'
+[10.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.dsv'
+[10.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.sh'
+[10.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.bash'
+[10.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.zsh'
+[10.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberrypi/rosmaster/install/rosmaster_driver/share/colcon-core/packages/rosmaster_driver)
+[10.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosmaster_driver)
+[10.070s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver' for CMake module files
+[10.078s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver' for CMake config files
+[10.081s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver/bin'
+[10.081s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver/lib/pkgconfig/rosmaster_driver.pc'
+[10.083s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver/lib/python3.10/site-packages'
+[10.086s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster_driver/bin'
+[10.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.ps1'
+[10.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.dsv'
+[10.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.sh'
+[10.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.bash'
+[10.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster_driver/share/rosmaster_driver/package.zsh'
+[10.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberrypi/rosmaster/install/rosmaster_driver/share/colcon-core/packages/rosmaster_driver)
+[10.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberrypi/rosmaster/build/drive_controls': PYTHONPATH=/home/raspberrypi/rosmaster/build/drive_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberrypi/rosmaster/build/drive_controls/build --no-deps symlink_data
+[12.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster
+[12.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster -- -j4 -l4
+[12.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster -- -j4 -l4
+[13.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raspberrypi/rosmaster/build/rosmaster
+[13.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_controls', 'pythonpath_develop')
+[13.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/build/drive_controls/share/drive_controls/hook/pythonpath_develop.ps1'
+[13.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberrypi/rosmaster/build/drive_controls' returned '0': PYTHONPATH=/home/raspberrypi/rosmaster/build/drive_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberrypi/rosmaster/build/drive_controls/build --no-deps symlink_data
+[13.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberrypi/rosmaster/build/drive_controls/share/drive_controls/hook/pythonpath_develop.dsv'
+[13.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/build/drive_controls/share/drive_controls/hook/pythonpath_develop.sh'
+[13.951s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/drive_controls' for CMake module files
+[13.954s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/drive_controls' for CMake config files
+[13.957s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/drive_controls/lib'
+[13.959s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/drive_controls/bin'
+[13.959s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/drive_controls/lib/pkgconfig/drive_controls.pc'
+[13.960s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages'
+[13.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_controls', 'pythonpath')
+[13.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/hook/pythonpath.ps1'
+[13.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/hook/pythonpath.dsv'
+[13.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/hook/pythonpath.sh'
+[13.975s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/drive_controls/bin'
+[13.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_controls)
+[13.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/package.ps1'
+[13.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/package.dsv'
+[13.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/package.sh'
+[13.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/package.bash'
+[13.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/drive_controls/share/drive_controls/package.zsh'
+[13.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberrypi/rosmaster/install/drive_controls/share/colcon-core/packages/drive_controls)
+[14.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosmaster)
+[14.553s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster' for CMake module files
+[14.556s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster' for CMake config files
+[14.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmaster', 'cmake_prefix_path')
+[14.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/hook/cmake_prefix_path.ps1'
+[14.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raspberrypi/rosmaster/build/rosmaster
+[14.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/hook/cmake_prefix_path.dsv'
+[14.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/hook/cmake_prefix_path.sh'
+[14.572s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster/bin'
+[14.573s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster/lib/pkgconfig/rosmaster.pc'
+[14.574s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster/lib/python3.10/site-packages'
+[14.575s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster/bin'
+[14.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.ps1'
+[14.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.dsv'
+[14.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.sh'
+[14.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.bash'
+[14.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.zsh'
+[14.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberrypi/rosmaster/install/rosmaster/share/colcon-core/packages/rosmaster)
+[14.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosmaster)
+[14.600s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster' for CMake module files
+[14.603s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster' for CMake config files
+[14.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmaster', 'cmake_prefix_path')
+[14.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/hook/cmake_prefix_path.ps1'
+[14.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/hook/cmake_prefix_path.dsv'
+[14.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/hook/cmake_prefix_path.sh'
+[14.617s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster/bin'
+[14.617s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster/lib/pkgconfig/rosmaster.pc'
+[14.618s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster/lib/python3.10/site-packages'
+[14.620s] Level 1:colcon.colcon_core.environment:checking '/home/raspberrypi/rosmaster/install/rosmaster/bin'
+[14.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.ps1'
+[14.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.dsv'
+[14.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.sh'
+[14.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.bash'
+[14.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberrypi/rosmaster/install/rosmaster/share/rosmaster/package.zsh'
+[14.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberrypi/rosmaster/install/rosmaster/share/colcon-core/packages/rosmaster)
+[18.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver_diff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver_diff
+[18.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver_diff -- -j4 -l4

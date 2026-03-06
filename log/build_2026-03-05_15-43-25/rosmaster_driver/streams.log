@@ -1,0 +1,38 @@
+[2.133s] Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver
+[2.237s] [33mCMake Warning (dev) in CMakeLists.txt:
+[2.237s]   No project() command is present.  The top-level CMakeLists.txt file must
+[2.238s]   contain a literal, direct call to the project() command.  Add a line of
+[2.238s]   code such as
+[2.238s] 
+[2.239s]     project(ProjectName)
+[2.239s] 
+[2.239s]   near the top of the file, but after cmake_minimum_required().
+[2.239s] 
+[2.240s]   CMake is pretending there is a "project(Project)" command on the first
+[2.240s]   line.
+[2.240s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.255s] [0m
+[3.657s] -- The C compiler identification is GNU 11.4.0
+[4.130s] -- The CXX compiler identification is GNU 11.4.0
+[4.230s] -- Detecting C compiler ABI info
+[4.944s] -- Detecting C compiler ABI info - done
+[5.025s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.027s] -- Detecting C compile features
+[5.031s] -- Detecting C compile features - done
+[5.065s] -- Detecting CXX compiler ABI info
+[5.798s] -- Detecting CXX compiler ABI info - done
+[5.888s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.894s] -- Detecting CXX compile features
+[5.897s] -- Detecting CXX compile features - done
+[5.917s] -- Configuring done
+[5.941s] -- Generating done
+[5.949s] [33mCMake Warning:
+[5.950s]   Manually-specified variables were not used by the project:
+[5.950s] 
+[5.951s]     AMENT_CMAKE_SYMLINK_INSTALL
+[5.951s] 
+[5.952s] [0m
+[5.957s] -- Build files have been written to: /home/raspberrypi/rosmaster/build/rosmaster_driver
+[5.976s] Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver
+[5.978s] Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver -- -j4 -l4
+[6.328s] Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver -- -j4 -l4

@@ -1,0 +1,25 @@
+[Unit]
+Description=ROS2 Rosmaster Robot (start after mosquitto)
+Wants=network-online.target mosquitto.service
+After=network-online.target mosquitto.service
+# If Mosquitto is running in a container/unit with different name, replace mosquitto.service
+
+[Service]
+Type=simple
+User=raspberrypi
+Environment="HOME=/home/raspberrypi"
+WorkingDirectory=/home/raspberrypi
+
+# Wait until MQTT port 1883 on localhost accepts connections (max ~30s)
+ExecStartPre=/bin/bash -c 'for i in {1..30}; do timeout 1 bash -c "</dev/tcp/localhost/1883" >/dev/null 2>&1 && exit 0 || sleep 1; done; echo "mosquitto not ready" >&2; exit 1'
+
+# Source ROS2 and workspace then launch
+ExecStart=/bin/bash -lc 'source /opt/ros/humble/setup.bash && source /home/raspberrypi/rosmaster/install/setup.bash && ros2 launch rosmaster launch_robot.launch.py'
+
+Restart=always
+RestartSec=5
+KillSignal=SIGINT
+TimeoutStopSec=20
+
+[Install]
+WantedBy=multi-user.target

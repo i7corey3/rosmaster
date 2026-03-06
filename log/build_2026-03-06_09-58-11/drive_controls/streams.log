@@ -1,0 +1,18 @@
+[3.886s] Invoking command in '/home/raspberrypi/rosmaster/build/drive_controls': PYTHONPATH=/home/raspberrypi/rosmaster/build/drive_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberrypi/rosmaster/build/drive_controls/build --no-deps symlink_data
+[4.995s] running develop
+[5.699s] running egg_info
+[5.700s] writing drive_controls.egg-info/PKG-INFO
+[5.701s] writing dependency_links to drive_controls.egg-info/dependency_links.txt
+[5.702s] writing entry points to drive_controls.egg-info/entry_points.txt
+[5.703s] writing requirements to drive_controls.egg-info/requires.txt
+[5.704s] writing top-level names to drive_controls.egg-info/top_level.txt
+[5.712s] reading manifest file 'drive_controls.egg-info/SOURCES.txt'
+[5.716s] writing manifest file 'drive_controls.egg-info/SOURCES.txt'
+[5.721s] running build_ext
+[5.722s] Creating /home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages/drive-controls.egg-link (link to .)
+[5.726s] Installing drive script to /home/raspberrypi/rosmaster/install/drive_controls/lib/drive_controls
+[5.727s] Installing driveTest script to /home/raspberrypi/rosmaster/install/drive_controls/lib/drive_controls
+[5.728s] 
+[5.728s] Installed /home/raspberrypi/rosmaster/build/drive_controls
+[5.729s] running symlink_data
+[5.863s] Invoked command in '/home/raspberrypi/rosmaster/build/drive_controls' returned '0': PYTHONPATH=/home/raspberrypi/rosmaster/build/drive_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberrypi/rosmaster/install/drive_controls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberrypi/rosmaster/build/drive_controls/build --no-deps symlink_data

@@ -1,0 +1,26 @@
+# controllers.yaml
+# Controllers for a 4-wheel mecanum robot using a joint-group velocity controller.
+
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+
+joint_state_broadcaster:
+  ros__parameters:
+    type: joint_state_broadcaster/JointStateBroadcaster
+
+wheels_velocity_controller:
+  ros__parameters:
+    type: joint_group_velocity_controller/JointGroupVelocityController
+    # List the joint names exactly as in your URDF/xacro
+    joints:
+      - wheel_front_left_joint
+      - wheel_front_right_joint
+      - wheel_rear_left_joint
+      - wheel_rear_right_joint
+    # command_interface and state_interface default to "velocity" for this controller,
+    # but we show them explicitly for clarity.
+    command_interfaces: ["velocity"]
+    state_interfaces: ["velocity"]
+    # Optional: a small smoothing or gain can be added by the controller implementation.
+    # If you need limits or PID conversion, implement them in hardware driver or a converter node.

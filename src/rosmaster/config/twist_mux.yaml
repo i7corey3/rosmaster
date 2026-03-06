@@ -1,0 +1,27 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      navigation:
+        topic   : cmd_vel
+        timeout : 0.5
+        priority: 10
+      joy:
+        topic   : app_twist
+        timeout : 0.5
+        priority: 10
+      ai:
+        topic   : ai_control
+        timeout : 0.5
+        priority: 10
+      opt:
+        topic   : opt_twist
+        timeout : 0.5
+        priority: 15
+      # object_advoidance:
+      #   topic   : object_advoidance/twist
+      #   timeout : 0.5
+      #   priority: 15
+      # equalizer:
+      #   topic   : equalizer/twist
+      #   timeout : 0.5
+      #   priority: 10

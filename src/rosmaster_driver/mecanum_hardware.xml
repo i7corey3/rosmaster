@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<library path="libmecanum_hardware.so">
+  <class type="mecanum_hardware::MecanumHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ROS2 hardware plugin for the Rosmaster mecanum driver
+    </description>
+  </class>
+</library>
