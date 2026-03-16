@@ -1,1 +1,0 @@
-/home/raspberrypi/rosmaster/src/rosmaster/launch/launch_robot.launch.py

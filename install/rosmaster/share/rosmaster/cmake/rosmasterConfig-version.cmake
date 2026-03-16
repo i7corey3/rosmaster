@@ -1,1 +1,0 @@
-/home/raspberrypi/rosmaster/build/rosmaster/ament_cmake_core/rosmasterConfig-version.cmake

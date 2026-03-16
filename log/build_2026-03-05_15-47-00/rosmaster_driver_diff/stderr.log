@@ -1,7 +1,0 @@
-In file included from [01m[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/include/rosmaster_driver_diff/rosmaster_controller.hpp:24[m[K,
-                 from [01m[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/include/rosmaster_driver_diff/diffbot_system.hpp:23[m[K,
-                 from [01m[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/src/diffbot_system.cpp:2[m[K:
-[01m[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/include/rosmaster_driver_diff/rosmaster.hpp:[m[K In function ‘[01m[Kstd::optional<std::array<int, 4> > rosmaster::parse_encoder_frame(const std::vector<unsigned char>&, int)[m[K’:
-[01m[K/home/raspberrypi/rosmaster/src/rosmaster_driver_diff/include/rosmaster_driver_diff/rosmaster.hpp:88:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kexpected_total[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-   88 |   std::size_t [01;35m[Kexpected_total[m[K = 3 + 1 + data_len; // indices: 0..expected_total inclusive?
-      |               [01;35m[K^~~~~~~~~~~~~~[m[K

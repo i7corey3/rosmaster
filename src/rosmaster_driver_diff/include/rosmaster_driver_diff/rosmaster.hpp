@@ -85,7 +85,7 @@ inline std::optional<std::array<int32_t,4>> parse_encoder_frame(
   if (ext_len < 2) return std::nullopt; // invalid
   std::size_t data_len = static_cast<std::size_t>(ext_len - 2); // includes payload bytes + checksum
   // expected total bytes after the first three bytes (HEAD, DEV-1, ext_len): ext_type + data_len
-  std::size_t expected_total = 3 + 1 + data_len; // indices: 0..expected_total inclusive?
+  // std::size_t expected_total = 3 + 1 + data_len; // indices: 0..expected_total inclusive?
   // total frame must be at least (HEAD + DEV-1 + ext_len + ext_type + payload + checksum)
   if (frame.size() < (4 + data_len)) return std::nullopt;
 

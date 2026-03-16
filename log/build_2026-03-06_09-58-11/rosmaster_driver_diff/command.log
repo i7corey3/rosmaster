@@ -1,4 +1,0 @@
-Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver_diff -- -j4 -l4
-Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver_diff -- -j4 -l4
-Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raspberrypi/rosmaster/build/rosmaster_driver_diff
-Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raspberrypi/rosmaster/build/rosmaster_driver_diff

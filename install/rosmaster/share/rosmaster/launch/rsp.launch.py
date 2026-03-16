@@ -1,1 +1,0 @@
-/home/raspberrypi/rosmaster/src/rosmaster/launch/rsp.launch.py
