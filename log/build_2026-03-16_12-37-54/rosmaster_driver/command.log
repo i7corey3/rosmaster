@@ -1,4 +1,0 @@
-Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver
-Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver
-Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver -- -j4 -l4
-Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver -- -j4 -l4

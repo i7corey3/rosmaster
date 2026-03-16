@@ -1,4 +1,0 @@
-[console_scripts]
-drive = drive_controls.drive:main
-driveTest = drive_controls.drive_test:main
-
