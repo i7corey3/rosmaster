@@ -17,7 +17,7 @@ case "${1:-}" in
     export APT_LISTCHANGES_FRONTEND=none
 
     # ensure needrestart won't prompt (auto-accept restarts)
-    echo '$nrconf{restart} = "a";' | sudo tee /etc/needrestart/conf.d/99-auto.conf >/dev/null
+    # echo '$nrconf{restart} = "a";' | sudo tee /etc/needrestart/conf.d/99-auto.conf >/dev/null
 
     # update + upgrade non-interactively
     sudo apt-get update
@@ -46,8 +46,7 @@ case "${1:-}" in
       ros-"$DISTRO"-twist-mux \
       ros-"$DISTRO"-spatio-temporal-voxel-layer \
       ros-"$DISTRO"-gazebo-ros2-control \
-      ros-"$DISTRO"-gazebo-ros-pkgs \
-      ros-"$DISTRO"-teleop-twist-keyboard
+      ros-"$DISTRO"-gazebo-ros-pkgs
 
     # packages with wildcard pattern (keep as separate install so shell expansion behavior is predictable)
     # Note: the shell will not expand these unless matching files exist in current dir.
@@ -58,11 +57,11 @@ case "${1:-}" in
 
     # copy udev rule if missing (fix path usage)
     if [[ ! -f "/etc/udev/rules.d/99-realsense-libusb.rules" ]]; then
-      if [[ -f "$DIR/files/99-realsense-libusb.rules" ]]; then
-        sudo cp "$DIR/files/99-realsense-libusb.rules" /etc/udev/rules.d/
+      if [[ -f "$DIR/99-realsense-libusb.rules" ]]; then
+        sudo cp "$DIR/99-realsense-libusb.rules" /etc/udev/rules.d/
         sudo udevadm control --reload-rules && sudo udevadm trigger
       else
-        echo "Warning: udev rule file not found at $DIR/files/99-realsense-libusb.rules — skipping copy"
+        echo "Warning: udev rule file not found at $DIR/99-realsense-libusb.rules — skipping copy"
       fi
     fi
 

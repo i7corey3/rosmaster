@@ -7,6 +7,7 @@ This repository expands on the ros2 package creations commands by auto generatin
 - Works with both python and c++ packages
 - Available for ros2 on Linux and Windows (windows not fully tested)
 - Creating a generic main folder for storing URDF files, maps, worlds and global launch scripts
+- Creating a systemctl folder with tools used for managing custom systemctl scripts 
 
 ## How To Use
 
@@ -39,6 +40,20 @@ To create a systemctl folder run:
 ./createPackage.sh systemctl
 ```
 > systemctl folder handles allocating and managing custom systemctl scripts used for linux only.
+
+## Install ROS2
+These tools also come with installation scrips for installing ROS2 humble with lots of the nessicary ros2 packages that are typically used with mobile robotics. 
+
+To install ROS2 humble, assuming you are using Ubuntu 22.04, the following command provides two installation types, ROS2 humble desktop version or bare version
+
+To install the DEsktop version 
+```
+./install_ros.sh --desktop
+```
+For bare installation
+```
+./install_ros.sh --bare
+```
 ### Notes
 
 Currently these tools have been tested with ROS2 Humble. Experience may differ for other ROS Distros

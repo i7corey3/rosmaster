@@ -14,8 +14,8 @@ case "${1:-}" in
     ENV='desktop'
     ;;
   *)
-    echo "Usage: $0 --bare   # for bare-bones install"
-    echo "       $0 --desktop # for desktop install"
+    echo "Usage: $0 --bare      for bare-bones install"
+    echo "       $0 --desktop   for desktop install"
     exit 1
     ;;
 esac
