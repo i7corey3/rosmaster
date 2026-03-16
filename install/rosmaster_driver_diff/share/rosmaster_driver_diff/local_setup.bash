@@ -1,0 +1,1 @@
+/home/raspberrypi/rosmaster/build/rosmaster_driver_diff/ament_cmake_environment_hooks/local_setup.bash

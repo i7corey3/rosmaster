@@ -1,0 +1,75 @@
+[1.278s] Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver_diff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver_diff
+[1.691s] -- The CXX compiler identification is GNU 11.4.0
+[1.764s] -- Detecting CXX compiler ABI info
+[2.545s] -- Detecting CXX compiler ABI info - done
+[2.624s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.630s] -- Detecting CXX compile features
+[2.635s] -- Detecting CXX compile features - done
+[2.749s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.504s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.227s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.012s] -- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[6.667s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.736s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.828s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.232s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.277s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.536s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.948s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.971s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[11.065s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.086s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[11.148s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[11.202s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.320s] -- Looking for C++ include pthread.h
+[11.860s] -- Looking for C++ include pthread.h - found
+[11.864s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.436s] -- Found Threads: TRUE  
+[12.814s] -- Found ament_cmake_gtest: 1.3.13 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[13.391s] -- Configuring done
+[13.520s] -- Generating done
+[13.544s] -- Build files have been written to: /home/raspberrypi/rosmaster/build/rosmaster_driver_diff
+[13.591s] Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raspberrypi/rosmaster/src/rosmaster_driver_diff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raspberrypi/rosmaster/install/rosmaster_driver_diff
+[13.600s] Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver_diff -- -j4 -l4
+[13.935s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_rosmaster.dir/src/diffbot_system.cpp.o[0m
+[30.598s] [100%] [32m[1mLinking CXX shared library libdiffdrive_rosmaster.so[0m
+[31.577s] [100%] Built target diffdrive_rosmaster
+[31.618s] Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raspberrypi/rosmaster/build/rosmaster_driver_diff -- -j4 -l4
+[31.628s] Invoking command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raspberrypi/rosmaster/build/rosmaster_driver_diff
+[31.655s] -- Install configuration: ""
+[31.657s] -- Execute custom install script
+[31.659s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff//robot_hardware.xml
+[31.695s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/diffbot_system.hpp
+[31.729s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/rosmaster.hpp
+[31.762s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/rosmaster_controller.hpp
+[31.797s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/visibility_control.h
+[31.831s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/include/diffdrive_rosmaster/rosmaster_driver_diff/wheel.hpp
+[31.864s] -- Up-to-date symlink: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/robot_hardware.xml
+[31.866s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/library_path.sh
+[31.901s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/library_path.dsv
+[31.935s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/ament_index/resource_index/package_run_dependencies/rosmaster_driver_diff
+[31.968s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/ament_index/resource_index/parent_prefix_path/rosmaster_driver_diff
+[32.002s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/ament_prefix_path.sh
+[32.036s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/ament_prefix_path.dsv
+[32.069s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/path.sh
+[32.103s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/environment/path.dsv
+[32.137s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/local_setup.bash
+[32.172s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/local_setup.sh
+[32.207s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/local_setup.zsh
+[32.241s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/local_setup.dsv
+[32.276s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/package.dsv
+[32.309s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/ament_index/resource_index/packages/rosmaster_driver_diff
+[32.345s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rosmaster_driver_diff
+[32.378s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/ament_cmake_export_targets-extras.cmake
+[32.412s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.445s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/rosmaster_driver_diffConfig.cmake
+[32.479s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/rosmaster_driver_diffConfig-version.cmake
+[32.513s] -- Symlinking: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/package.xml
+[32.546s] -- Installing: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib/libdiffdrive_rosmaster.so
+[32.556s] -- Set runtime path of "/home/raspberrypi/rosmaster/install/rosmaster_driver_diff/lib/libdiffdrive_rosmaster.so" to ""
+[32.557s] -- Installing: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/export_diffdrive_rosmasterExport.cmake
+[32.558s] -- Installing: /home/raspberrypi/rosmaster/install/rosmaster_driver_diff/share/rosmaster_driver_diff/cmake/export_diffdrive_rosmasterExport-noconfig.cmake
+[32.566s] Invoked command in '/home/raspberrypi/rosmaster/build/rosmaster_driver_diff' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raspberrypi/rosmaster/build/rosmaster_driver_diff
